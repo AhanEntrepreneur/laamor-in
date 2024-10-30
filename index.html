@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Add these meta tags for better SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La Amor - Exquisite Designer Cakes Since 1980. Famous for designer edible artworks and extraordinary flavors.">
+    
+    <!-- Add Font Awesome for better icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Add WhatsApp floating button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/yournumber" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Add quick order floating button -->
+    <div class="quick-order-float">
+        <button onclick="openQuickOrder()">
+            <i class="fas fa-shopping-cart"></i> Quick Order
+        </button>
+    </div>
+
+    <!-- Add this after your promo bar -->
+    <div class="delivery-timer">
+        <i class="fas fa-truck"></i>
+        <span>Order within <span id="countdown">23:59:59</span> for next-day delivery!</span>
+    </div>
+
+    <!-- Add this in your hero section -->
+    <div class="hero-cta">
+        <button onclick="scrollToMenu()" class="explore-menu-btn">
+            <i class="fas fa-birthday-cake"></i> Explore Our Menu
+        </button>
+        <button onclick="openCustomOrder()" class="custom-order-btn">
+            <i class="fas fa-magic"></i> Design Custom Cake
+        </button>
+    </div>
+
+    <!-- Add this before the flavors section -->
+    <div class="categories-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="bestseller">Bestsellers</button>
+        <button class="filter-btn" data-filter="new">New Arrivals</button>
+        <button class="filter-btn" data-filter="signature">Signature</button>
+    </div>
+
+    <!-- Modify your flavor cards to include price and order button -->
+    <div class="flavor-card" data-category="bestseller">
+        <span class="badge">Bestseller</span>
+        <img src="Nutella%20Nutty.png" alt="Nutella Nutty">
+        <div class="flavor-details">
+            <h3>Nutella Nutty</h3>
+            <div class="price">From ₹599</div>
+            <button class="order-now-btn">Order Now</button>
+        </div>
+    </div>
+
+    <!-- Add this before the footer -->
+    <section id="special-occasions" class="section">
+        <h2>Special Occasions</h2>
+        <div class="occasions-grid">
+            <div class="occasion-card">
+                <img src="wedding.jpg" alt="Wedding Cakes">
+                <h3>Wedding</h3>
+                <p>Make your special day even sweeter</p>
+            </div>
+            <!-- Add more occasion cards -->
+        </div>
+    </section>
+
+    <!-- Add this to your footer -->
+    <div class="footer-info">
+        <div class="footer-section">
+            <h3>Working Hours</h3>
+            <p>Mon - Sun: 9:00 AM - 10:00 PM</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <a href="#">FAQ</a>
+            <a href="#">Shipping Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-phone"></i> +91 XXXXXXXXXX</p>
+            <p><i class="fas fa-envelope"></i> info@laamor.com</p>
+        </div>
+    </div>
+</head>
+</html>

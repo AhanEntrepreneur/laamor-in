@@ -1,0 +1,114 @@
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+.delivery-timer {
+    background: #FFE5B6;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    border-bottom: 2px solid #FFA600;
+}
+
+.hero-cta {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.explore-menu-btn, .custom-order-btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.explore-menu-btn {
+    background: #FFA600;
+    color: white;
+}
+
+.custom-order-btn {
+    background: white;
+    color: #FFA600;
+    border: 2px solid #FFA600;
+}
+
+.categories-filter {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.filter-btn {
+    padding: 8px 20px;
+    border: 2px solid #FFA600;
+    background: transparent;
+    color: #FFA600;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.filter-btn.active {
+    background: #FFA600;
+    color: white;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #FF4444;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+}
+
+.flavor-details {
+    text-align: center;
+    padding: 15px;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #FFA600;
+    margin: 10px 0;
+}
+
+.order-now-btn {
+    background: #FFA600;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.order-now-btn:hover {
+    transform: scale(1.05);
+}
